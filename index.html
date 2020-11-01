@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Famous Paintings</title>
+    </head>
+    <body>
+        <h1>
+            My Favourite Paintings
+        </h1>
+        <br>
+        <h3>
+            Drawing has always been my favourite hobby. Now, let us look at 5 famous Paintings.
+        </h3>
+        <br>
+        <br>
+        <div>
+        <span>
+        <img src="Mona-Lisa.jpg">
+        </span>
+        <span>
+            <img src="Starry-Night.jpg">
+        </span>
+    </div>
+    <div>
+        <span>
+            <img src="Girl-with-a-Pearl-Earring.jpg">
+        </span>
+        <span>
+            <img src="The-Scream.jpg">
+        </span>
+    </div>
+        <span>
+            <img src="Guernica.jpg" class="Guernica">
+        </span>
+    </body>
+    <style>
+        body{
+            text-align:center;
+        }
+        img{
+            height:500px;
+            width:600px;
+        }
+        .Guernica{
+            width:1205px;
+        }
+        h1{
+            color:darkblue;
+        }
+    </style>
+    <script>
+        var MonaLisa1 = ("This is Mona Lisa ");
+        console.log(MonaLisa1);
+        var MonaLisa2 = ("by French artist Leornado da Vinci.");
+        console.log(MonaLisa2);
+        var MonaLisa = MonaLisa1.concat(MonaLisa2);
+        console.log(MonaLisa);
+        var starryNight1 = ("This is Starry Night ");
+        var starryNight2 = ("by Vincent Van Gogh.");
+        var starryNight = starryNight1.concat(starryNight2);
+        console.log(starryNight);
+        var girl1 = ("This is Girl with a Pearl Earring ");
+        var girl2 = ("by Johannes Vermeer.");
+        var girl = girl1.concat(girl2);
+        console.log(girl);
+        var scrream = ("This is The Scream ");
+        var scrrream = ("by Edvard Munch.");
+        var scream = scrream.concat(scrrream);
+        console.log(scream);
+        var g1 = ("This is Guernica ");
+        var g2 = ("by Pablo Picasso.");
+        var Guernica = g1.concat(g2);
+        console.log(Guernica);
+    </script>
+</html>
