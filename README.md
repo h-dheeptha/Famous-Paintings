@@ -1,1 +1,1 @@
-# Famous-Paintings
+# Famous Paintings
